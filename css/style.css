@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: 33.33%;
+    padding: 15px;
+}
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+    margin: 20px 0px;
+}
+h1 span {
+    color: #21B573 !important;
+    font-size: 56px !important;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #858482;
+    line-height: 32px;
+}
+.btn{
+    color: #413960;
+    font-size: 20px;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    transition-duration: .5s;
+    background: #21b573;
+    color: #fff;
+    border: 1px solid #21b573;
+    margin-top: 20px;}
+.btn:hover{
+    background: transparent;
+    border: 1px solid #21b573;
+    color: #21b573;
+}
+.heading{text-align: center;}
+.heading h2{
+    font-size: 32px;
+    color: #413960;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+/*****banner section*****/
+.banner-section{
+    background: #F2F8EE;
+}
+header{padding: 20px 0px;}
+.logo{
+    width: 15%;
+    flex: 0 0 auto;
+    padding: 15px;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 85%;
+    flex: 0 0 auto;
+    padding: 15px;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    color: #413960;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 30px;
+    transition-duration: .3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+nav ul li a:hover{
+    background: #21b573;
+    color: #fff;
+}
+.banner-content{
+    width: 45%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.banner-content span{
+    color: #F15228;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.banner-img{
+    width: 55%;
+    padding: 15px 40px;
+}
+.banner-img img{}
+
+/*****feature section*****/
+.feature-section{
+    padding: 20px 0px;
+}
+.feature {
+    text-align: center;
+    background: #FAFDFA;
+    padding: 45px 30px;
+    transition: .3s;
+}
+.feature:hover {
+    box-shadow: 0px 15px 40px 0px #00000012;
+    background: #fff;
+}
+.feature img {
+    height: 80px;
+}
+.feature h3{
+    margin: 6px 0px;
+    color: #413960;
+    font-size: 20px;
+}
+.feature p{}
+
+/*course-section*/
+.course-section{}
+.course{
+    box-shadow: 0px 15px 40px 0px #00000012;
+    border-radius: 15px;
+    padding: 15px;
+}
+.course img{}
+.course h3{
+    margin: 6px 0px;
+    color: #413960;
+    font-size: 20px;
+}
+.course span{
+    color: #413960;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    display: block;
+}
+.course ul{
+    justify-content: space-between;
+}
+.course .btn {
+    margin-bottom: 15px;
+    padding: 7px 15px;
+}
+.course ul li{}
+.course ul li i{}
+
+/*****testmonial-section*****/
+.testmonial-section{
+    padding: 40px 0px;
+}
+.testmonial-section .flex{
+    justify-content: center;
+    align-items: center;
+}
+.client-img{
+    width: 14%;
+    padding: 15px;
+}
+.client-img img{}
+.client-content{
+    width: 60%;
+    padding: 15px;
+}
+.client-content p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #050607;
+}
+
+/*****footer-section*****/
+footer{
+    padding-top: 40px;
+    background: #282531;
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+}
+footer ul{}
+footer ul li{}
+footer ul li strong{
+    color: #fff;
+}
+footer ul li a{
+    color: #fff;
+    font-size: 15px;
+    margin: 15px 0px;
+    display: block;
+}
+footer .copyright{text-align: center;
+padding: 30px 0px 10px;
+font-size: 16px;}
+footer .copyright a{
+    color: #fff;
+}
+footer .copyright a:hover{
+    color: #218573;
+}
